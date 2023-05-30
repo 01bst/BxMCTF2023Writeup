@@ -1,5 +1,5 @@
 # BxMCTF2023Writeup
-This is a few writeup for BxMCTF2023
+First thing first thank you for the opportunity to participate in the CTF. Therefore, Im gonna share a few writeup for the challenges for the BxMCTF2023
 
 
 Category : General 
