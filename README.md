@@ -66,6 +66,48 @@ Category : Web
 
 ![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/b48a3735-8728-4905-a932-9e8984ac39fc)
 
+Category : Crypto
+
+1. I can't Believe it
+
+![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/1fd491bd-6c64-47d2-865d-2191f4edc398)
+
+* Given a file "cryp1.zip" 
+* Download the zip file 
+* and you can see poetry.txt
+* open the 'txt' files and you can see a poetry.
+
+![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/1f25b734-8b0a-4fac-bc88-2a139a0cd857)
+
+* The flag is already there, how? read the first letter work every lines. 
+* And you can get "K N O W N C T F A L L", and then sort it, since our flag format is ctf{}, let sort the word that we got, we'll get ctf{allknown}.
+
+
+2. Where snakes die. 
+
+![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/b93989d3-a01c-4b46-be1f-dd097cd946c6)
+
+* Give a file "crypto2.zip".
+* Download the zip files.
+* you'll get clue.txt inside it.
+
+![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/d87916a2-c445-4035-8b9f-c16ce345bdb1)
+
+* To find the flag, do you ever heard "Whitespace"?, this is a website that provide whitespace compiler : https://ideone.com/l/whitespace
+* Copy and paste the clue.txt inside the whitespaces compiler and you can see the hidden sumbol. 
+
+![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/7b42028c-3941-47a8-aedc-755c68c73dda)
+
+* In whitespace format, "Tab: is for "-" and "Space" is for ".". 
+* It seem like a morse code right? 
+* Let move on to the morse translator.
+* Change the "|" to "/" and the "-" to "_" 
+* And finally you will get the flag 
+
+flag = ctf{tabsoverspaces}
+
+
+
 
 
 
