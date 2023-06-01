@@ -2,7 +2,7 @@
 First thing first thank you for the opportunity to participate in the CTF. Therefore, Im gonna share a few writeup for the challenges for the BxMCTF2023
 
 
-Category : General 
+**Category : General** 
 
 1. Welcome to BxMCTF
 
@@ -24,7 +24,7 @@ The Flag is already provided : ctf{check_out_our_sponsors!}
 ![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/e032a630-315f-4594-be64-e7d1762f686b)
 
 
-Category : Web 
+**Category : Web** 
 
 1. Blank space - I mean Page 
 
@@ -66,7 +66,7 @@ Category : Web
 
 ![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/b48a3735-8728-4905-a932-9e8984ac39fc)
 
-Category : Crypto
+**Category : Crypto**
 
 1. I can't Believe it
 
@@ -107,8 +107,34 @@ Category : Crypto
 flag = ctf{tabsoverspaces}
 
 
+**Category : Forensic**
 
 
+1. Selfie. 
+
+![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/5694867c-d7ad-4202-91c0-a05be4fc8002)
+
+* Download the file foren1.zip
+* Opened it and you will obtained a selfie picture.
+
+![BxMCTF-Foren-1](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/0ad16a99-540c-4a52-a5f0-ecbd39833d7e)
+
+* Use Exif data tools. to extract the data of the image.
+* When the result come out, keep scrolling and investigate the data. 
+* Then you will see at the "Licences" segment, it seem like something has been ecnrypted. 
+
+![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/c1cbfab8-2843-4810-b5b1-0062f3255008)
+
+* Let try to decrypt the "Y3Rme25xaUoyQnQyaVZEa2d6fQ" using base64.
+* Boom !! you get the flag.
+
+![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/b4a89996-6f3b-4de5-b7a7-7be787019866)
+
+
+
+2. Street View
+
+![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/47e4de7d-72a6-4dd0-842c-e17eced3161c)
 
 
 
