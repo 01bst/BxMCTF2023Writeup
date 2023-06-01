@@ -28,6 +28,22 @@ The Flag is already provided : ctf{check_out_our_sponsors!}
 
 ![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/43fa07db-971a-425d-b1a9-99bde0f67842)
 
+* download the give "misc3.zip" 
+* Open and you will get one picture. 
+
+![the_photo](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/c62d7411-0e1c-4bf0-9f4e-bda854b87b1e)
+
+* Using reverse image or google lens, to detect what is the location in the picture. 
+* And you will get it, it is "Brooklyn bridge". 
+* Open the https://what3words.com/ , and search brooklyn bridge". 
+* Use Satelite view so, it will make it more viewable. 
+* The provided is "h is the first letter for the first word" 
+* Keep searching every square until you found the flag. 
+
+![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/5bce0a60-b9ce-441e-8f37-cb15957de67c).
+
+
+* flag is ctf{happen.system.privately}
 
 
 **Category : Web** 
