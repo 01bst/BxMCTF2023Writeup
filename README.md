@@ -71,14 +71,14 @@ The Flag is already provided : ctf{check_out_our_sponsors!}
 
 ![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/5272771b-60d6-43a2-be59-decefa975a82)
 
-* The website provided when you launch the instance i just a website to login. you need to find the credentials.
+* The website provided when you launch the instance is just a website to login. you need to find the credentials.
 * To find the credentials, Download the web2.zip file provided.
 * Once you opened the web2.zip file, it will contain a few file : 
 
 ![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/bcfd174e-f1d0-49e0-ad9d-2e4a6e7e76b8)
 
 * Let investigate all of the file and code, who knows it will contain the credentials.
-* On file called "app.py", you can see at the line 5, state my_users and have a list of username and password : 
+* On file called "app.py", you can see at the line 5, state my_users and have a list of username and password and roles : 
 
 ![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/6d969547-697b-44f0-a362-411c286f3bdf)
 
@@ -116,7 +116,7 @@ The Flag is already provided : ctf{check_out_our_sponsors!}
 ![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/d87916a2-c445-4035-8b9f-c16ce345bdb1)
 
 * To find the flag, do you ever heard "Whitespace"?, this is a website that provide whitespace compiler : https://ideone.com/l/whitespace
-* Copy and paste the clue.txt inside the whitespaces compiler and you can see the hidden sumbol. 
+* Copy and paste the clue.txt inside the whitespaces compiler and you can see the hidden symbol. 
 
 ![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/7b42028c-3941-47a8-aedc-755c68c73dda)
 
@@ -158,6 +158,41 @@ flag = ctf{tabsoverspaces}
 
 ![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/47e4de7d-72a6-4dd0-842c-e17eced3161c)
 
+* Download the Foren2.zip 
+
+* You will get an image 
+
+![BxMCTF-Foren-2](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/6d82ad7b-9e34-426f-a820-f5efa8812223)
+
+* Use Exif tools to view the image data
+
+* In the meta data you can see you valuable information, which the longitude and latitude.
+
+![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/56d79ace-2dec-410d-b2a5-85be28cd5da8)
+
+* Open google map and search using the infromation.
+
+* It will bring you to the location 
+
+![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/fccf3897-e4bb-4031-93b5-e5dd6a2c305b)
+
+* in the problem statement, state that the format of the flag is the building domain : ctf{domain}
+
+* Use street view so that, it will make your investigation more easy. 
+
+![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/5b15277b-bffc-407c-8dfb-30d30e4b2faf)
+
+* You can see that the location bring you to the Wallmart supermarket. 
+
+* to find the wallmart supermarket domain, you can view the wallmart details. 
+
+![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/6f237087-03f7-4b4e-83d5-c0b951413dd8)
+
+* There is the domain. 
+
+![image](https://github.com/zer00neops/BxMCTF2023Writeup/assets/103404282/e55e79e0-a079-4af2-84e2-a78c2ac41cdc)
+
+* Wrap the domain with ctf{} and you got the flag : ctf{walmart.ca}
 
 
 
